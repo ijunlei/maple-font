@@ -1,6 +1,6 @@
 {
   "$schema": "./source/schema.json",
-  "family_name": "Maple Mono",
+  "family_name": "Maple Mono NF CN",
   "use_hinted": true,
   "pool_size": 4,
   "ligature": true,
@@ -41,12 +41,12 @@
     "extra_args": []
   },
   "cn": {
-    "enable": false,
+    "enable": true,
     "with_nerd_font": true,
     "fix_meta_table": true,
     "clean_cache": false,
     "narrow": false,
-    "use_hinted": false,
+    "use_hinted": true,
     "use_static_base_font": true
   }
 }
