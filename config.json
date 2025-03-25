@@ -1,6 +1,6 @@
 {
   "$schema": "./source/schema.json",
-  "family_name": "Maple Mono NF CN",
+  "family_name": "Maple Mono Normal",
   "use_hinted": true,
   "pool_size": 4,
   "ligature": true,
@@ -9,11 +9,11 @@
     "cv02": "enable",
     "cv03": "enable",
     "cv04": "ignore",
-    "cv31": "enable",
+    "cv31": "ignore",
     "cv32": "ignore",
     "cv33": "ignore",
     "cv34": "ignore",
-    "cv35": "ignore",
+    "cv35": "enable",
     "cv36": "ignore",
     "cv37": "ignore",
     "cv96": "ignore",
@@ -24,10 +24,10 @@
     "ss02": "ignore",
     "ss03": "ignore",
     "ss04": "ignore",
-    "ss05": "ignore",
-    "ss06": "ignore",
-    "ss07": "ignore",
-    "ss08": "ignore",
+    "ss05": "enable",
+    "ss06": "enable",
+    "ss07": "enable",
+    "ss08": "enable",
     "zero": "ignore"
   },
   "nerd_font": {
@@ -42,11 +42,11 @@
   },
   "cn": {
     "enable": true,
-    "with_nerd_font": true,
+    "with_nerd_font": false,
     "fix_meta_table": true,
     "clean_cache": false,
     "narrow": false,
-    "use_hinted": true,
+    "use_hinted": false,
     "use_static_base_font": true
   }
 }
